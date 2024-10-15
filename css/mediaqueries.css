@@ -88,17 +88,4 @@
   .image {
     display: none; /* Hide the profile photo */
   }
-
-  .section__container {
-    display: flex;
-    flex-direction: column; /* Stack the content vertically */
-    align-items: center; /* Center the content horizontally */
-    justify-content: center; /* Center the content vertically */
-    text-align: center; /* Center the text */
-  }
-
-  .content {
-    text-align: center; /* Ensure content is centered */
-    margin-top: 2rem; /* Add some top margin for spacing */
-  }
 }
