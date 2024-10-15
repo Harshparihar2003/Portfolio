@@ -1,0 +1,104 @@
+/* For screens up to 1400px */
+@media screen and (max-width: 1400px) {
+  #about {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .project-containers {
+    flex-wrap: wrap;
+  }
+
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+/* For screens up to 1200px */
+@media screen and (max-width: 1200px) {
+  #nav {
+    display: none; /* Hide the navigation on smaller screens */
+  }
+
+  #about {
+    display: block;
+  }
+
+  .arrow {
+    display: none; /* Hide the arrow on smaller screens */
+  }
+
+  section {
+    height: fit-content;
+    margin: 0 5%; /* Reduce margins for better spacing */
+  }
+
+  .project-containers {
+    margin-top: 0; /* Remove extra top margin */
+  }
+}
+
+/* For screens up to 600px (mobile devices) */
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh; /* Adjust the height for the contact section and footer */
+  }
+
+  #about {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem; /* Adjust footer navigation for smaller screens */
+  }
+
+  .project-containers,
+  .btn-container {
+    flex-wrap: wrap; /* Allow wrapping for buttons and projects */
+  }
+
+  .nav-links li a {
+    font-size: 1rem; /* Reduce font size for nav links on smaller screens */
+  }
+
+  .logo {
+    font-size: 1.5rem; /* Smaller logo for mobile devices */
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center; /* Center align navigation for smaller screens */
+  }
+
+  .title {
+    font-size: 2rem; /* Smaller title for mobile devices */
+  }
+
+  .text-container {
+    text-align: justify; /* Justify text for better readability */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .image {
+    display: none; /* Hide the profile photo */
+  }
+
+  .section__container {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+    text-align: center; /* Center the text */
+  }
+
+  .content {
+    text-align: center; /* Ensure content is centered */
+    margin-top: 2rem; /* Add some top margin for spacing */
+  }
+}
