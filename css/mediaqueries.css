@@ -18,24 +18,20 @@
 /* For screens up to 1200px */
 @media screen and (max-width: 1200px) {
   #nav {
-    display: none; /* Hide the navigation on smaller screens */
+    display: none;
   }
 
   #about {
     display: block;
   }
 
-  .arrow {
-    display: none; /* Hide the arrow on smaller screens */
-  }
-
   section {
     height: fit-content;
-    margin: 0 5%; /* Reduce margins for better spacing */
+    margin: 0 5%;
   }
 
   .project-containers {
-    margin-top: 0; /* Remove extra top margin */
+    margin-top: 0;
   }
 }
 
@@ -43,7 +39,7 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh; /* Adjust the height for the contact section and footer */
+    height: 40vh;
   }
 
   #about {
@@ -51,36 +47,31 @@
     margin-bottom: 0;
   }
 
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem; /* Adjust footer navigation for smaller screens */
-  }
-
   .project-containers,
   .btn-container {
-    flex-wrap: wrap; /* Allow wrapping for buttons and projects */
+    flex-wrap: wrap;
   }
 
   .nav-links li a {
-    font-size: 1rem; /* Reduce font size for nav links on smaller screens */
+    font-size: 1rem; 
   }
 
   .logo {
-    font-size: 1.5rem; /* Smaller logo for mobile devices */
+    font-size: 1.5rem; 
   }
 
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
-    text-align: center; /* Center align navigation for smaller screens */
+    text-align: center;
   }
 
   .title {
-    font-size: 2rem; /* Smaller title for mobile devices */
+    font-size: 2rem;
   }
 
   .text-container {
-    text-align: justify; /* Justify text for better readability */
+    text-align: justify; 
   }
 }
 
@@ -91,14 +82,14 @@
 
   .section__container {
     display: flex;
-    flex-direction: column; /* Stack the content vertically */
-    align-items: center; /* Center the content horizontally */
-    justify-content: center; /* Center the content vertically */
-    text-align: center; /* Center the text */
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
   }
 
   .content {
-    text-align: center; /* Ensure content is centered */
-    margin-top: 2rem; /* Add some top margin for spacing */
+    text-align: center; 
+    margin-top: 2rem;
   }
 }
