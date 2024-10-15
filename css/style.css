@@ -279,6 +279,9 @@ section {
     display: block;
     margin-bottom: 0.5rem;
   }
+  form button{
+    margin-top: 1rem;
+  }
   
   form input, form textarea {
     width: 100%;
@@ -299,8 +302,8 @@ section {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
   margin-top: 2rem;
+  line-height: 26vh;
 }
 
 footer p {
