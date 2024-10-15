@@ -133,7 +133,7 @@ a,
 }
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 70vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -197,11 +197,7 @@ section {
     margin-right: 1rem;
   }
 
-
-
-
 /* Projects */
-
   
 #projects {
   position: relative;
@@ -250,16 +246,6 @@ section {
     border-color: rgb(163, 163, 163);
   }
 
-
-
-
-
-
-
-
-
-
-
   /* Contact Form */
 
   
@@ -267,7 +253,8 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  /* height: 70vh; */
+  margin-bottom: 5rem;
 }
 
   form {
@@ -291,6 +278,7 @@ section {
 
   form input, form textarea {
     transition: border-color 0.3s ease;
+    border-radius: 0.5rem;
   }
   
   form input:focus, form textarea:focus {
@@ -299,12 +287,6 @@ section {
   
   
 /* FOOTER SECTION */
-
-footer {
-  height: 26vh;
-  margin-top: 2rem;
-  line-height: 26vh;
-}
 
 footer p {
   text-align: center;
