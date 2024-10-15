@@ -9,10 +9,10 @@
     flex-wrap: wrap;
   }
 
-  /* #contact,
+  #contact,
   #projects {
     height: fit-content;
-  } */
+  }
 }
 
 /* For screens up to 1200px */
@@ -30,7 +30,7 @@
   }
 
   section {
-    /* height: fit-content; */
+    height: fit-content;
     margin: 0 5%; /* Reduce margins for better spacing */
   }
 
